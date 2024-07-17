@@ -6,6 +6,10 @@ sections:
     subtitle: This is a subtitle
     elementId: ''
     colors: bg-light-fg-dark
+    title:
+      type: TitleBlock
+      text: This Is A Big Headline
+      color: text-dark
 slug: carta
 isDraft: false
 seo:
