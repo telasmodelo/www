@@ -174,6 +174,11 @@
         @apply opacity-100;
     }
 
+    /* Color blocks */
+    .color-block {
+        height: 20em;
+        width: 100%;
+    }
     /* Color palettes */
     .bg-light-fg-dark,
     .sb-card.bg-light-fg-dark {

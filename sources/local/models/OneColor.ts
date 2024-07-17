@@ -1,147 +1,81 @@
 import { Model } from '@stackbit/types';
 
-export const PostLayout: Model = {
-    type: 'page',
-    name: 'PostLayout',
-    label: 'Post',
+export const OneColor: Model = {
+    type: 'object',
+    name: 'OneColor',
+    label: 'Color',
     labelField: 'title',
-    filePath: 'content/pages/blog/{slug}.md',
-    fieldGroups: [
-        {
-            name: 'thumbnail',
-            label: 'Thumbnail',
-            icon: 'image'
-        },
-        {
-            name: 'cardStyles',
-            label: 'Card styles',
-            icon: 'palette'
-        },
-        {
-            name: 'settings',
-            label: 'Settings',
-            icon: 'gear'
-        },
-        {
-            name: 'seo',
-            label: 'SEO',
-            icon: 'page'
-        }
-    ],
     fields: [
         {
             type: 'string',
             name: 'title',
             label: 'Title',
-            required: true,
-            default: 'This is a blog post title',
+            required: false,
+            default: 'Color',
             hidden: false,
             localized: false
-        },
-
-        {
-            type: 'date',
-            name: 'date',
-            label: 'Date',
-            required: true,
-            hidden: false,
-            localized: false
-        },
-        {
-            type: 'reference',
-            name: 'author',
-            label: 'Author',
-            required: false,
-            hidden: false,
-            localized: false,
-            models: ['Person']
-        },
-        {
-            type: 'string',
-            name: 'excerpt',
-            label: 'Excerpt',
-            required: false,
-            default:
-                'Nunc rutrum felis dui, ut consequat sapien scelerisque vel. Integer condimentum dignissim justo vel faucibus.',
-            hidden: false,
-            localized: false,
-            group: 'thumbnail'
         },
         {
             type: 'model',
-            name: 'featuredImage',
-            label: 'Featured image',
+            name: 'color',
+            label: 'Color',
             required: false,
             hidden: false,
             localized: false,
-            models: ['ImageBlock'],
-            group: 'thumbnail'
+            models: ['ColorBock']
+        },
+        {
+            type: 'string',
+            name: 'details',
+            label: 'Details',
+            required: false,
+            default: '',
+            hidden: false,
+            localized: false
+        },
+        {
+            type: 'markdown',
+            name: 'description',
+            label: 'Description',
+            required: false,
+            default:
+                'Sed ut perspiciatis unde omnis, iste natus error sit voluptatem accusantium doloremque.',
+            hidden: false,
+            localized: false
         },
         {
             type: 'list',
-            name: 'bottomSections',
-            label: 'Sections',
+            name: 'features',
+            label: 'Features',
+            required: false,
+            default: ['Feature one', 'Feature two', 'Feature three'],
+            hidden: false,
+            localized: false,
+            items: {
+                type: 'string'
+            }
+        },
+        {
+            type: 'list',
+            name: 'actions',
+            label: 'Actions',
             required: false,
             hidden: false,
             localized: false,
             items: {
                 type: 'model',
-                models: [
-                    'CarouselSection',
-                    'DividerSection',
-                    'FeaturedItemsSection',
-                    'FeaturedPeopleSection',
-                    'FeaturedPostsSection',
-                    'GenericSection',
-                    'ImageGallerySection',
-                    'PaletteSection',
-                    'PricingSection',
-                    'RecentPostsSection'
-                ]
+                models: ['Button', 'Link']
             }
         },
         {
-            type: 'slug',
-            name: 'slug',
-            label: 'Slug',
-            description:
-                'The URL path of this page relative to site root. For example, the site root page would be "/", and post page would be "posts/new-post/"',
-            required: true,
-            hidden: false,
-            localized: false,
-            group: 'settings'
-        },
-        {
-            type: 'boolean',
-            name: 'isFeatured',
-            label: 'Exclude from blog feed',
-            description:
-                "Enable this option to avoid a featured post (in a 'Featured posts' section) to appear duplicated in the blog page.",
-            required: false,
-            default: false,
-            hidden: false,
-            localized: false,
-            group: 'settings'
-        },
-        {
-            type: 'boolean',
-            name: 'isDraft',
-            label: 'Draft',
-            required: false,
-            default: false,
-            hidden: false,
-            localized: false,
-            group: 'settings'
-        },
-        {
-            type: 'model',
-            name: 'seo',
-            label: 'SEO',
+            type: 'string',
+            name: 'elementId',
+            label: 'Element ID',
+            description: 'The unique ID for an HTML element, must not contain whitespace',
             required: false,
             hidden: false,
             localized: false,
-            models: ['Seo'],
-            group: 'seo'
+            group: 'settings'
         },
         {
             type: 'enum',
@@ -197,6 +131,7 @@ export const PostLayout: Model = {
                     margin: ['tw0:96'],
                     padding: ['tw0:96'],
                     flexDirection: '*',
+                    justifyContent: ['flex-start', 'flex-end', 'center'],
                     borderWidth: ['0:2', '4:8:4'],
                     borderStyle: '*',
                     borderColor: [
@@ -230,6 +165,18 @@ export const PostLayout: Model = {
                     textAlign: '*'
                 }
             }
+        }
+    ],
+    fieldGroups: [
+        {
+            name: 'cardStyles',
+            label: 'Card styles',
+            icon: 'palette'
+        },
+        {
+            name: 'settings',
+            label: 'Settings',
+            icon: 'gear'
         }
     ]
 };
