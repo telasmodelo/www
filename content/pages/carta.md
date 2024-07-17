@@ -1,7 +1,11 @@
 ---
 type: PageLayout
 title: Carta de color
-sections: []
+sections:
+  - type: PaletteSection
+    subtitle: This is a subtitle
+    elementId: ''
+    colors: bg-light-fg-dark
 slug: carta
 isDraft: false
 seo:
