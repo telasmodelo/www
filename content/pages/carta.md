@@ -10,6 +10,18 @@ sections:
       type: TitleBlock
       text: Polar
       color: text-dark
+    palette:
+      - type: OneColor
+        title: Color
+        details: ''
+        description: >-
+          Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
+          accusantium doloremque.
+        features:
+          - Feature one
+          - Feature two
+          - Feature three
+        colors: bg-light-fg-dark
 slug: carta
 isDraft: false
 seo:
