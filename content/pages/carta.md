@@ -12,7 +12,7 @@ sections:
       color: text-dark
     palette:
       - type: OneColor
-        title: Color
+        title: Negro
         details: ''
         description: >-
           Sed ut perspiciatis unde omnis, iste natus error sit voluptatem
