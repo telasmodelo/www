@@ -8,7 +8,7 @@ sections:
     colors: bg-light-fg-dark
     title:
       type: TitleBlock
-      text: This Is A Big Headline
+      text: Polar
       color: text-dark
 slug: carta
 isDraft: false
