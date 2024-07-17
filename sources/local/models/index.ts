@@ -1,6 +1,7 @@
 import { BackgroundImage } from './BackgroundImage';
 import { Badge } from './Badge';
 import { Button } from './Button';
+import { ColorBlock } from './ColorBlock';
 import { CarouselSection } from './CarouselSection';
 import { CheckboxFormControl } from './CheckboxFormControl';
 import { Config } from './Config';
@@ -17,8 +18,10 @@ import { Header } from './Header';
 import { ImageBlock } from './ImageBlock';
 import { ImageGallerySection } from './ImageGallerySection';
 import { Link } from './Link';
+import { OneColor } from './OneColor';
 import { PageLayout } from './PageLayout';
 import { PagedPostsSection } from './PagedPostsSection';
+import { PaletteSection } from './PaletteSection';
 import { Person } from './Person';
 import { PostFeedLayout } from './PostFeedLayout';
 import { PostFeedSection } from './PostFeedSection';
@@ -50,6 +53,7 @@ export const allModels = {
     CarouselSection,
     CheckboxFormControl,
     Config,
+    ColorBlock,
     DividerSection,
     EmailFormControl,
     FeaturedItem,
@@ -63,8 +67,10 @@ export const allModels = {
     ImageBlock,
     ImageGallerySection,
     Link,
+    OneColor,
     PageLayout,
     PagedPostsSection,
+    PaletteSection,
     Person,
     PostFeedLayout,
     PostFeedSection,
