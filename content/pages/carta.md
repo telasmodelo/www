@@ -3,7 +3,7 @@ type: PageLayout
 title: Carta de color
 sections:
   - type: PaletteSection
-    subtitle: This is a subtitle
+    subtitle: Carta de colo
     elementId: ''
     colors: bg-light-fg-dark
     title:
