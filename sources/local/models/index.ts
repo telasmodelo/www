@@ -1,7 +1,6 @@
 import { BackgroundImage } from './BackgroundImage';
 import { Badge } from './Badge';
 import { Button } from './Button';
-import { ColorBlock } from './ColorBlock';
 import { CarouselSection } from './CarouselSection';
 import { CheckboxFormControl } from './CheckboxFormControl';
 import { Config } from './Config';
@@ -53,7 +52,6 @@ export const allModels = {
     CarouselSection,
     CheckboxFormControl,
     Config,
-    ColorBlock,
     DividerSection,
     EmailFormControl,
     FeaturedItem,

@@ -4,56 +4,34 @@ export const OneColor: Model = {
     type: 'object',
     name: 'OneColor',
     label: 'Color',
-    labelField: 'title',
+    labelField: 'code',
     fields: [
         {
             type: 'string',
-            name: 'title',
-            label: 'Title',
+            name: 'code',
+            label: 'Code',
             required: false,
-            default: 'Color',
+            default: '000',
             hidden: false,
             localized: false
         },
         {
-            type: 'model',
+            type: 'string',
             name: 'color',
             label: 'Color',
             required: false,
+            default: '#000',
             hidden: false,
             localized: false,
-            models: ['ColorBock']
         },
         {
             type: 'string',
             name: 'details',
             label: 'Details',
             required: false,
-            default: '',
+            default: 'Negro',
             hidden: false,
             localized: false
-        },
-        {
-            type: 'markdown',
-            name: 'description',
-            label: 'Description',
-            required: false,
-            default:
-                'Sed ut perspiciatis unde omnis, iste natus error sit voluptatem accusantium doloremque.',
-            hidden: false,
-            localized: false
-        },
-        {
-            type: 'list',
-            name: 'features',
-            label: 'Features',
-            required: false,
-            default: ['Feature one', 'Feature two', 'Feature three'],
-            hidden: false,
-            localized: false,
-            items: {
-                type: 'string'
-            }
         },
         {
             type: 'list',
