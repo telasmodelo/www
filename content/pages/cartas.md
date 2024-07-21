@@ -14,7 +14,7 @@ sections:
     items:
       - type: FeaturedItem
         title: Polar
-        tagline: This is the tagline
+        tagline: ''
         subtitle: ''
         text: ''
         actions: []
