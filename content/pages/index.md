@@ -49,7 +49,7 @@ sections:
           - pr-16
     title:
       type: TitleBlock
-      text: This Is A Big Headline
+      text: Desarrollando textiles de vanguardia desde 1967
       color: text-dark
   - type: FeaturedItemsSection
     title:
