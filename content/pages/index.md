@@ -24,7 +24,7 @@ sections:
     title:
       type: TitleBlock
       text: Desarrollando textiles de vanguardia desde 1967
-      color: text-dark
+      color: text-light
     backgroundImage:
       type: BackgroundImage
       altText: altText of the image
