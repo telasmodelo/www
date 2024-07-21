@@ -14,12 +14,6 @@ sections:
       Luego, en 1995 comenzó a fabricar sus propios tejidos, hasta convertirse
       hoy en día en uno de los productores textiles más importantes del país.
     actions:
-      - type: Button
-        label: Get started
-        url: /
-        icon: arrowRight
-        iconPosition: right
-        style: secondary
       - type: Link
         label: See Tutorials
         url: /
