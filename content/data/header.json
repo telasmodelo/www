@@ -22,7 +22,7 @@
         },
         {
             "label": "Productos",
-            "altText": "Blog",
+            "altText": "Productos",
             "url": "/blog",
             "icon": "arrowRight",
             "iconPosition": "right",
