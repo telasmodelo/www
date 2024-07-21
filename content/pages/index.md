@@ -38,7 +38,7 @@ sections:
       text: Cartas de colores
       color: text-dark
       type: TitleBlock
-    subtitle: Increase your reach
+    subtitle: ''
     text: >
       Descubrí la amplia variedad de colores que disponemos para nuestros
       artículos
