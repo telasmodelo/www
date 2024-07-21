@@ -3,10 +3,6 @@ title: Home
 slug: /
 sections:
   - type: GenericSection
-    title:
-      text: ''
-      color: text-dark
-      type: TitleBlock
     subtitle: Desarrollando textiles de vanguardia desde 1967
     text: >
       A Netlify Create website is a git repo that you own. Every code commit is
