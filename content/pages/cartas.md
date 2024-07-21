@@ -16,8 +16,7 @@ sections:
         title: Polar
         tagline: This is the tagline
         subtitle: This is the item subtitle
-        text: |
-          Follow the tutorial to build your first Netlify Create site.
+        text: ''
         actions: []
         colors: bg-light-fg-dark
         styles:
