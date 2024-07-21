@@ -5,7 +5,7 @@ sections:
   - type: GenericSection
     title:
       type: TitleBlock
-      text: Social Media Management
+      text: Nuestra Historia
       color: text-dark
     subtitle: Increase your reach
     text: >
