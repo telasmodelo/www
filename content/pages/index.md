@@ -3,7 +3,7 @@ title: Home
 slug: /
 sections:
   - type: GenericSection
-    subtitle: Desarrollando textiles de vanguardia desde 1967
+    subtitle: ''
     text: >
       A Netlify Create website is a git repo that you own. Every code commit is
       instantly reflected in the visual editor and since every visual edit is a
