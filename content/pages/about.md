@@ -7,7 +7,7 @@ sections:
       type: TitleBlock
       text: Nuestra Historia
       color: text-dark
-    subtitle: Increase your reach
+    subtitle: ''
     text: >
       Fundada en 1967 en Merlo, Buenos Aires, Argentina. La tintorería en un
       principio solo brindaba el servicio de terminación en sus instalaciones.
