@@ -30,7 +30,7 @@ sections:
       altText: altText of the image
       backgroundSize: auto
       backgroundPosition: center
-      backgroundRepeat: repeat
+      backgroundRepeat: repeat-x
       opacity: 100
       url: /images/gradient.svg
   - type: FeaturedItemsSection
