@@ -13,14 +13,7 @@ sections:
       principio solo brindaba el servicio de terminación en sus instalaciones.
       Luego, en 1995 comenzó a fabricar sus propios tejidos, hasta convertirse
       hoy en día en uno de los productores textiles más importantes del país.
-    actions:
-      - type: Link
-        label: See Tutorials
-        url: /
-        showIcon: true
-        icon: arrowRight
-        iconPosition: right
-        style: primary
+    actions: []
     badge:
       type: Badge
       label: This is a badge
