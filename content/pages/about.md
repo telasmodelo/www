@@ -16,7 +16,7 @@ sections:
     actions: []
     badge:
       type: Badge
-      label: Compania
+      label: Empresa
       color: text-primary
     colors: bg-light-fg-dark
     styles:
