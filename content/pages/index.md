@@ -5,7 +5,7 @@ sections:
   - type: FeaturedItemsSection
     title:
       text: Desarrollando textiles de vanguardia desde 1967
-      color: text-dark
+      color: text-light
       styles:
         self:
           textAlign: center
