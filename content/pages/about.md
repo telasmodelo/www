@@ -16,7 +16,7 @@ sections:
     actions: []
     badge:
       type: Badge
-      label: This is a badge
+      label: Compania
       color: text-primary
     colors: bg-light-fg-dark
     styles:
