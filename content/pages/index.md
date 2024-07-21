@@ -25,6 +25,13 @@ sections:
       type: TitleBlock
       text: Desarrollando textiles de vanguardia desde 1967
       color: text-dark
+    backgroundImage:
+      type: BackgroundImage
+      altText: altText of the image
+      backgroundSize: auto
+      backgroundPosition: center
+      backgroundRepeat: no-repeat
+      opacity: 100
   - type: FeaturedItemsSection
     title:
       text: Key Benefits
