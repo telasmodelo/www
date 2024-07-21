@@ -16,7 +16,7 @@ sections:
         code: '000'
         color: '#000'
         details: NEGRO
-        colors: bg-neutralAlt-fg-dark
+        colors: bg-light-fg-dark
         styles:
           self:
             padding:
