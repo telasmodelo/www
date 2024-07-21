@@ -64,6 +64,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/gradient.svg
   - subtitle: Award winning enterprises trust us
     images:
       - url: /images/empathy-logo.svg
