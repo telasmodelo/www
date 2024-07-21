@@ -15,7 +15,7 @@ sections:
       - type: FeaturedItem
         title: Polar
         tagline: This is the tagline
-        subtitle: This is the item subtitle
+        subtitle: ''
         text: ''
         actions: []
         colors: bg-light-fg-dark
