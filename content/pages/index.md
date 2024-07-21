@@ -40,8 +40,8 @@ sections:
       type: TitleBlock
     subtitle: Increase your reach
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      Descubrí la amplia variedad de colores que disponemos para nuestros
+      artículos
     actions:
       - label: Get started
         url: /
