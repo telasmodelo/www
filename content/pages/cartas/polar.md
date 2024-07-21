@@ -1,7 +1,37 @@
 ---
 type: PageLayout
 title: Polar
-sections: []
+sections:
+  - type: PaletteSection
+    title:
+      type: TitleBlock
+      text: Carta de Colores
+      color: text-dark
+      styles:
+        self:
+          textAlign: center
+    subtitle: Carta de Colores
+    palette:
+      - type: OneColor
+        code: '000'
+        color: '#000'
+        details: NEGRO
+        colors: bg-neutral-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-5
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        justifyContent: center
+      subtitle:
+        textAlign: center
 slug: /cartas/polar
 isDraft: false
 seo:
