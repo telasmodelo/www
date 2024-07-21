@@ -5,7 +5,7 @@ sections:
   - type: PaletteSection
     title:
       type: TitleBlock
-      text: Carta de Colores
+      text: Polar
       color: text-dark
       styles:
         self:
