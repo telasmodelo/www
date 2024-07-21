@@ -9,8 +9,10 @@ sections:
       color: text-dark
     subtitle: Increase your reach
     text: >
-      A service that helps businesses to manage their social media accounts and
-      posts.
+      Fundada en 1967 en Merlo, Buenos Aires, Argentina. La tintorería en un
+      principio solo brindaba el servicio de terminación en sus instalaciones.
+      Luego, en 1995 comenzó a fabricar sus propios tejidos, hasta convertirse
+      hoy en día en uno de los productores textiles más importantes del país.
     actions:
       - type: Button
         label: Get started
