@@ -43,16 +43,7 @@ sections:
       type: TitleBlock
     subtitle: Subtitle goes here
     items: []
-    actions:
-      - label: Get started
-        altText: ''
-        url: /
-        showIcon: false
-        icon: arrowRight
-        iconPosition: right
-        style: primary
-        elementId: ''
-        type: Button
+    actions: []
     badge:
       label: This is a badge
       color: text-primary
