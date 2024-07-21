@@ -23,7 +23,7 @@
         {
             "label": "Cartas de colores",
             "altText": "Productos",
-            "url": "/productos",
+            "url": "/cartas",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
