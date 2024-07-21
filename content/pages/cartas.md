@@ -19,7 +19,7 @@ sections:
         text: ''
         actions:
           - type: Button
-            label: Get started
+            label: Ver
             altText: ''
             url: /polar
             showIcon: false
