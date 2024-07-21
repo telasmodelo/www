@@ -43,7 +43,7 @@ sections:
       Descubrí la amplia variedad de colores que disponemos para nuestros
       artículos
     actions:
-      - label: Get started
+      - label: Explorar
         url: /
         icon: arrowRight
         iconPosition: right
