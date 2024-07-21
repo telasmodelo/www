@@ -6,18 +6,17 @@ import { mapStylesToClassNames as mapStyles } from '../../../utils/map-styles-to
 import { getDataAttrs } from '../../../utils/get-data-attrs';
 import Section from '../Section';
 import TitleBlock from '../../blocks/TitleBlock';
-import ColorBlock from '../../blocks/ColorBlock';
-import { Action, Badge } from '../../atoms';
+import { Action, BackgroundImage, Badge } from '../../atoms';
 
 export default function PaletteSection(props) {
-    const { elementId, colors, badge, title, subtitle, palette = [], styles = {}, enableAnnotations } = props;
+    const { elementId, colors, backgroundImage, badge, title, subtitle, palette = [], styles = {}, enableAnnotations } = props;
 
     return (
         <Section
             elementId={elementId}
             className="sb-component-pricing-section"
             colors={colors}
-            palette={palette}
+            backgroundImage={backgroundImage}
             styles={styles?.self}
             {...getDataAttrs(props)}
         >
@@ -58,7 +57,7 @@ export default function PaletteSection(props) {
                                 'gap-y-10',
                                 '-mx-5'
                             )}
-                            {...(enableAnnotations && { 'data-sb-field-path': '.plans' })}
+                            {...(enableAnnotations && { 'data-sb-field-path': '.palette' })}
                         >
                             {palette.map((color, index) => (
                                 <div
@@ -79,11 +78,11 @@ export default function PaletteSection(props) {
 function OneColor(props) {
     const {
         elementId,
-        title,
-        color,
+        code,
         details,
         description,
         features = [],
+        color,
         actions = [],
         colors = 'bg-light-fg-dark',
         styles = {},
@@ -116,31 +115,55 @@ function OneColor(props) {
             data-sb-field-path={fieldPath}
         >
             {color && (
-                <ColorBlock
-                    {...color}
+                <div
+                    
                     className={classNames('flex', mapStyles({ justifyContent: styles?.self?.justifyContent ?? 'flex-start' }))}
                     {...(fieldPath && { 'data-sb-field-path': '.color' })}
-                />
+                >
+                    <div
+                    className={classNames(
+                        'sb-component',
+                        'sb-component-block',
+                        'sb-component-image-block',
+                        'color-block',
+                        styles?.self?.margin ? mapStyles({ margin: styles?.self?.margin }) : undefined
+                    )}>
+                        <div
+                        id={elementId}
+                        style={{backgroundColor: color}}
+                        className={classNames(
+                            'color-block',
+                            styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : undefined,
+                            styles?.self?.borderWidth && styles?.self?.borderWidth !== 0 && styles?.self?.borderStyle !== 'none'
+                                ? mapStyles({
+                                    borderWidth: styles?.self?.borderWidth,
+                                    borderStyle: styles?.self?.borderStyle,
+                                    borderColor: styles?.self?.borderColor ?? 'border-primary'
+                                })
+                                : undefined,
+                            styles?.self?.borderRadius ? mapStyles({ borderRadius: styles?.self?.borderRadius }) : undefined
+                        )}>
+                        </div>
+
+                    </div>
+                </div>
             )}
-            {(title || details || description || features.length > 0 || actions.length > 0) && (
+            {(code || details || description || features.length > 0 || actions.length > 0) && (
                 <div
                     id={elementId}
                     className={classNames('grow', 'flex', 'flex-col', styles?.self?.padding ? mapStyles({ padding: styles?.self?.padding }) : undefined)}
                 >
-                    {title && (
-                        <TitleTag
-                            className="text-xl font-normal normal-case tracking-normal no-underline"
-                            {...(fieldPath && { 'data-sb-field-path': '.title' })}
-                        >
-                            {title}
-                        </TitleTag>
-                    )}
-                    {( details) && (
-                        <div className={classNames({ 'mt-6': title })}>
-                            
+                    
+                    {(code || details) && (
+                        <div>
+                            {code && (
+                                <div className="text-4xl sm:text-6xl font-medium" {...(fieldPath && { 'data-sb-field-path': '.code' })}>
+                                    {code}
+                                </div>
+                            )}
                             {details && (
                                 <div
-                                    className={classNames('text-sm', 'font-medium', { 'mt-2': title })}
+                                    className={classNames('text-sm', 'font-medium', { 'mt-2': code })}
                                     {...(fieldPath && { 'data-sb-field-path': '.details' })}
                                 >
                                     {details}
@@ -151,7 +174,7 @@ function OneColor(props) {
                     {description && (
                         <Markdown
                             options={{ forceBlock: true, forceWrapper: true }}
-                            className={classNames('sb-markdown', { 'mt-10': title || details })}
+                            className={classNames('sb-markdown', { 'mt-10': code || details })}
                             {...(fieldPath && { 'data-sb-field-path': '.description' })}
                         >
                             {description}
@@ -161,7 +184,7 @@ function OneColor(props) {
                         <ul
                             className={classNames('list-disc', 'list-inside', 'text-sm', 'space-y-2', {
                                 'mt-4': description,
-                                'mt-10': !description && (title  || details)
+                                'mt-10': !description && (code || details)
                             })}
                             {...(fieldPath && { 'data-sb-field-path': '.features' })}
                         >
@@ -181,7 +204,7 @@ function OneColor(props) {
                                 'items-center',
                                 'gap-4',
                                 {
-                                    'mt-auto pt-12': title || details || description || features.length > 0
+                                    'mt-auto pt-12': code || details || description || features.length > 0
                                 }
                             )}
                             {...(fieldPath && { 'data-sb-field-path': '.actions' })}

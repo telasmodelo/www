@@ -1,0 +1,57 @@
+{
+    "model": "PaletteSection",
+    "presets": [
+        {
+            "label": "Carta de Colores",
+            "locale": null,
+            "data": {
+                "title": {
+                    "text": "Carta de Colores",
+                    "color": "text-dark",
+                    "styles": {
+                        "self": {
+                            "textAlign": "center"
+                        }
+                    },
+                    "$$type": "TitleBlock"
+                },
+                "subtitle": "Carta de Colores",
+                "palette": [
+                    {
+                        "code": "000",
+                        "details": "NEGRO",
+                        "color": "#000",
+                        "elementId": null,
+                        "colors": "bg-neutral-fg-dark",
+                        "styles": {
+                            "self": {
+                                "padding": [
+                                    "pt-3",
+                                    "pb-5",
+                                    "pl-3",
+                                    "pr-3"
+                                ],
+                                "borderRadius": "large",
+                                "textAlign": "center"
+                            }
+                        },
+                        "$$type": "OneColor"
+                    }
+                ],
+                "badge": null,
+                "elementId": null,
+                "colors": "bg-light-fg-dark",
+                "backgroundImage": null,
+                "styles": {
+                    "self": {
+                        "justifyContent": "center"
+                    },
+                    "subtitle": {
+                        "textAlign": "center"
+                    }
+                }
+            },
+            "thumbnail": "images/pricing-section-pricing-08b5.png"
+        }
+    ]
+}
