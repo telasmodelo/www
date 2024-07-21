@@ -21,7 +21,7 @@
             "type": "Link"
         },
         {
-            "label": "Productos",
+            "label": "Cartas de colores",
             "altText": "Productos",
             "url": "/productos",
             "icon": "arrowRight",
