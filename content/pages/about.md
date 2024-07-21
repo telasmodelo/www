@@ -13,6 +13,17 @@ sections:
       principio solo brindaba el servicio de terminación en sus instalaciones.
       Luego, en 1995 comenzó a fabricar sus propios tejidos, hasta convertirse
       hoy en día en uno de los productores textiles más importantes del país.
+
+
+      Nos especializamos en tejidos sintéticos, contamos con máquinas de última
+      generación y un equipo de trabajo experimentado y capacitado. Buscamos la
+      entera satisfacción de nuestros clientes, elaborando productos que cumplan
+      los estándares más altos de calidad.
+
+
+      Nos esforzamos constantemente por reducir nuestro impacto ambiental.
+      Mantener un enfoque responsable de nuestra producción y procesos es parte
+      de nuestra filosofía corporativa.
     actions: []
     badge:
       type: Badge
