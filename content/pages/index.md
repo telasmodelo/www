@@ -2,37 +2,6 @@
 title: Home
 slug: /
 sections:
-  - type: GenericSection
-    subtitle: ''
-    text: ''
-    actions: []
-    badge:
-      label: ''
-      color: text-primary
-      type: Badge
-    elementId: ''
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        alignItems: center
-        flexDirection: row
-        padding:
-          - pt-16
-          - pl-16
-          - pb-16
-          - pr-16
-    title:
-      type: TitleBlock
-      text: Desarrollando textiles de vanguardia desde 1967
-      color: text-light
-    backgroundImage:
-      type: BackgroundImage
-      altText: altText of the image
-      backgroundSize: cover
-      backgroundPosition: center
-      backgroundRepeat: no-repeat
-      opacity: 100
-      url: /images/gradient.svg
   - type: FeaturedItemsSection
     title:
       text: Desarrollando textiles de vanguardia desde 1967
