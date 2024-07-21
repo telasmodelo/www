@@ -35,7 +35,7 @@ sections:
       url: /images/gradient.svg
   - type: FeaturedItemsSection
     title:
-      text: Key Benefits
+      text: Desarrollando textiles de vanguardia desde 1967
       color: text-dark
       styles:
         self:
