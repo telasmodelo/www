@@ -14,7 +14,7 @@
     "primaryLinks": [
         {
             "label": "Nosotros",
-            "url": "/nosotros",
+            "url": "/about",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "secondary",
