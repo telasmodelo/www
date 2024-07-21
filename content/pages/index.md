@@ -35,7 +35,7 @@ sections:
       opacity: 100
       url: /images/gradient.svg
   - title:
-      text: Social Media Management
+      text: Cartas de colores
       color: text-dark
       type: TitleBlock
     subtitle: Increase your reach
