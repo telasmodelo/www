@@ -1,45 +1,7 @@
 ---
 type: PageLayout
 title: Cartas de colores
-sections:
-  - type: PricingSection
-    title:
-      type: TitleBlock
-      text: Cartas de Colores
-      color: text-dark
-      styles:
-        self:
-          textAlign: center
-    subtitle: ''
-    plans:
-      - type: PricingPlan
-        title: ''
-        price: Polar
-        details: ''
-        description: ''
-        features: []
-        actions:
-          - type: Button
-            label: ver
-            url: /
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-        colors: bg-neutral-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-6
-              - pb-10
-              - pl-6
-              - pr-6
-            borderRadius: large
-    colors: bg-light-fg-dark
-    styles:
-      self:
-        justifyContent: center
-      subtitle:
-        textAlign: center
+sections: []
 slug: cartas
 isDraft: false
 seo:
