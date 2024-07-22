@@ -1,6 +1,6 @@
 ---
 title: Careers
-slug: careers
+slug: trabajo
 sections:
   - title:
       text: Sumate a nuestro equipo
