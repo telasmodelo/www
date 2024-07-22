@@ -1,6 +1,6 @@
 ---
 type: PageLayout
-title: Polar
+title: Deportivo
 sections:
   - type: PaletteSection
     title:
