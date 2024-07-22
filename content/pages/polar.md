@@ -925,6 +925,9 @@ sections:
       type: Badge
       label: CARTA DE COLORES
       color: text-primary
+      styles:
+        self:
+          textAlign: center
 slug: polar
 isDraft: false
 seo:
