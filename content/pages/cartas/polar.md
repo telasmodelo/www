@@ -26,6 +26,7 @@ sections:
               - pr-3
             borderRadius: large
             textAlign: center
+            borderWidth: 8
     colors: bg-neutral-fg-dark
     styles:
       self:
