@@ -64,6 +64,13 @@
             "url": "https://www.instagram.com/telas_modelo/",
             "icon": "instagram",
             "elementId": ""
+        },
+        {
+            "type": "Social",
+            "altText": "YouTube icon",
+            "url": "https://wa.me/5491144105407",
+            "icon": "whatsapp",
+            "elementId": ""
         }
     ],
     "legalLinks": [
