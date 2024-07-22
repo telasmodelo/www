@@ -27,8 +27,9 @@ sections:
               - pr-3
             borderRadius: large
             textAlign: center
-            borderWidth: 0
+            borderWidth: 1
             flexDirection: ''
+            borderColor: border-light
       - type: OneColor
         details: GRIS CENIZA
         code: '348'
@@ -204,7 +205,7 @@ sections:
         code: '051'
         color: '#E0FF60'
         actions: []
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
             padding:
@@ -306,7 +307,7 @@ sections:
         code: '608'
         color: '#FFA94B'
         actions: []
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
             padding:
