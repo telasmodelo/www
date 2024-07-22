@@ -44,7 +44,7 @@ sections:
       artículos
     actions:
       - label: Explorar
-        url: /
+        url: /cartas
         icon: arrowRight
         iconPosition: right
         style: secondary
