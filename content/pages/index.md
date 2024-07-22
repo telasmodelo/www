@@ -73,7 +73,7 @@ sections:
           - pr-7
     type: DividerSection
   - title:
-      text: Contactanos
+      text: ''
       color: text-dark
       type: TitleBlock
     subtitle: Section with a form subtitle
