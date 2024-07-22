@@ -920,7 +920,7 @@ sections:
       self:
         justifyContent: center
       subtitle:
-        textAlign: right
+        textAlign: center
     badge:
       type: Badge
       label: CARTA DE COLORES
