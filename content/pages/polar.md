@@ -914,7 +914,7 @@ sections:
             textAlign: center
             borderWidth: 0
             flexDirection: ''
-    colors: bg-light-fg-dark
+    colors: bg-neutral-fg-dark
     styles:
       self:
         justifyContent: center
