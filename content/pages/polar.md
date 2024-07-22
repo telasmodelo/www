@@ -14,7 +14,7 @@ sections:
     palette:
       - details: BLANCO
         code: '001'
-        color: '#E4E5E9'
+        color: '#F4F5F9'
         highlight: false
         type: OneColor
         actions: []
