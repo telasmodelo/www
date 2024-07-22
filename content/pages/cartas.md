@@ -14,7 +14,7 @@ sections:
     plans:
       - type: PricingPlan
         title: Enterprise
-        price: Custom
+        price: Polar
         details: per month
         description: >-
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
