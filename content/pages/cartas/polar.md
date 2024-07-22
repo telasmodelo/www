@@ -23,7 +23,7 @@ sections:
               - pt-0
               - pb-5
               - pl-0
-              - pr-3
+              - pr-0
             borderRadius: large
             textAlign: center
             borderWidth: 0
