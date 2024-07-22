@@ -19,7 +19,6 @@ sections:
         text: ''
         image:
           type: ImageBlock
-          url: /images/abstract-feature1.svg
           altText: Background alt text
           styles:
             self:
