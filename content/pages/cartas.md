@@ -14,14 +14,6 @@ sections:
       - type: FeaturedItem
         title: Faux Fur Throw
         subtitle: $ 88 – $ 176
-        image:
-          type: ImageBlock
-          url: /images/img-placeholder.svg
-          altText: Faux Fur Throw
-          elementId: ''
-          styles:
-            self:
-              borderRadius: medium
         actions: []
         colors: bg-light-fg-dark
         styles:
