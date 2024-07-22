@@ -43,7 +43,7 @@ sections:
       opacity: 100
       url: /images/abstract-background.svg
   - title:
-      text: Open positions
+      text: Busquedas abiertas
       color: text-dark
       styles:
         self:
