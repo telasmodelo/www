@@ -27,7 +27,7 @@ sections:
               - pr-3
             borderRadius: large
             textAlign: center
-            borderWidth: 0
+            borderWidth: 1
             flexDirection: ''
       - type: OneColor
         details: GRIS CENIZA
