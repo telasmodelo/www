@@ -24,7 +24,7 @@ sections:
             url: /
             icon: arrowRight
             iconPosition: right
-            style: secondary
+            style: primary
         colors: bg-neutral-fg-dark
         styles:
           self:
