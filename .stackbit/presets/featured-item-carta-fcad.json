@@ -1,0 +1,64 @@
+{
+    "model": "FeaturedItem",
+    "srcType": "git",
+    "srcProjectId": "9a0364b9",
+    "presets": [
+        {
+            "label": "carta",
+            "locale": null,
+            "metadata": {
+                "categories": [
+                    "carta"
+                ],
+                "canDelete": true
+            },
+            "data": {
+                "title": "Polar",
+                "tagline": "",
+                "subtitle": "",
+                "text": "",
+                "image": {
+                    "$$type": "ImageBlock",
+                    "url": null,
+                    "altText": "Background alt text",
+                    "elementId": null,
+                    "styles": {
+                        "self": {
+                            "borderRadius": "x-large"
+                        }
+                    }
+                },
+                "actions": [
+                    {
+                        "$$type": "Button",
+                        "label": "VER",
+                        "altText": "",
+                        "url": "/cartas/polar",
+                        "showIcon": false,
+                        "icon": "arrowRight",
+                        "iconPosition": "right",
+                        "style": "secondary",
+                        "elementId": ""
+                    }
+                ],
+                "elementId": null,
+                "colors": "bg-light-fg-dark",
+                "styles": {
+                    "self": {
+                        "padding": [
+                            "pt-8",
+                            "pl-8",
+                            "pb-8",
+                            "pr-8"
+                        ],
+                        "borderRadius": "x-large",
+                        "flexDirection": "row",
+                        "textAlign": "center",
+                        "justifyContent": "center"
+                    }
+                }
+            },
+            "thumbnail": "images/featured-item-carta-fcad.png"
+        }
+    ]
+}
