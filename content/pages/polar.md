@@ -801,7 +801,7 @@ sections:
         code: '608'
         color: '#FF670D'
         actions: []
-        colors: bg-dark-fg-light
+        colors: bg-neutralAlt-fg-dark
         styles:
           self:
             padding:
