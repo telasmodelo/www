@@ -60,7 +60,7 @@ sections:
           - type: Button
             label: VER
             altText: ''
-            url: /cartas/polar
+            url: /cartas/plano
             showIcon: false
             icon: arrowRight
             iconPosition: right
