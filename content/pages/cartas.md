@@ -46,7 +46,7 @@ sections:
             textAlign: center
             justifyContent: center
     actions: []
-    variant: toggle-list
+    variant: three-col-grid
     colors: bg-light-fg-dark
     styles:
       self:
