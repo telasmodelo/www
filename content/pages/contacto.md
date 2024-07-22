@@ -50,7 +50,7 @@ sections:
           borderRadius: large
     badge:
       type: Badge
-      label: PRODUCTOS
+      label: CLIENTES
       color: text-primary
     colors: bg-light-fg-dark
     title:
