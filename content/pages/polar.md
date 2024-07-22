@@ -30,6 +30,7 @@ sections:
             textAlign: center
             borderWidth: 1
             flexDirection: ''
+            borderColor: border-light
       - type: OneColor
         details: NATURAL
         code: '134'
