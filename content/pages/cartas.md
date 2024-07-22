@@ -20,7 +20,7 @@ sections:
         features: []
         actions:
           - type: Button
-            label: Contact us
+            label: ver
             url: /
             icon: arrowRight
             iconPosition: right
