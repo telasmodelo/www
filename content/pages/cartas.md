@@ -13,7 +13,7 @@ sections:
     subtitle: ''
     plans:
       - type: PricingPlan
-        title: Enterprise
+        title: ''
         price: Polar
         details: ''
         description: ''
