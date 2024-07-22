@@ -10,11 +10,11 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: Carta de Colores
+    subtitle: ''
     palette:
       - details: BLANCO
         code: '001'
-        color: '#E4E5E9'
+        color: '#F4F5F9'
         highlight: false
         type: OneColor
         actions: []
@@ -921,6 +921,13 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
+    badge:
+      type: Badge
+      label: CARTA DE COLORES
+      color: text-primary
+      styles:
+        self:
+          textAlign: center
 slug: polar
 isDraft: false
 seo:
