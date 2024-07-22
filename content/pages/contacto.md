@@ -3,10 +3,6 @@ type: PageLayout
 title: Contactanos
 sections:
   - type: GenericSection
-    title:
-      type: TitleBlock
-      text: Generic Section With A Form
-      color: text-dark
     subtitle: Section with a form subtitle
     text: |-
       Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
