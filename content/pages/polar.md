@@ -921,6 +921,10 @@ sections:
         justifyContent: center
       subtitle:
         textAlign: center
+    badge:
+      type: Badge
+      label: CARTA DE COLORES
+      color: text-primary
 slug: polar
 isDraft: false
 seo:
