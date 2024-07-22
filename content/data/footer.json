@@ -42,7 +42,7 @@
             },
             {
                 "label": "Trabaja con nosotros",
-                "url": "/blog",
+                "url": "/trabajo",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
