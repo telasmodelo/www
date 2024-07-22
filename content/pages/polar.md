@@ -21,15 +21,16 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
               - pr-3
             borderRadius: large
             textAlign: center
-            borderWidth: 0
+            borderWidth: 1
             flexDirection: ''
+            borderColor: border-light
       - type: OneColor
         details: NATURAL
         code: '134'
@@ -38,7 +39,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -55,7 +56,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -72,7 +73,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -89,7 +90,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -106,7 +107,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -123,7 +124,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -140,7 +141,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -157,7 +158,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -174,7 +175,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -191,7 +192,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -208,7 +209,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -225,7 +226,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -242,7 +243,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -259,7 +260,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -276,7 +277,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -293,7 +294,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -310,7 +311,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -327,7 +328,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -344,7 +345,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -361,7 +362,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -378,7 +379,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -395,7 +396,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -412,7 +413,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -429,7 +430,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -446,7 +447,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -463,7 +464,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -480,7 +481,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -497,7 +498,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -514,7 +515,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -531,7 +532,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -548,7 +549,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -565,7 +566,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -582,7 +583,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -599,7 +600,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -616,7 +617,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -633,7 +634,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -650,7 +651,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -667,7 +668,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -684,7 +685,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -701,7 +702,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -718,7 +719,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -735,7 +736,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -752,7 +753,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -769,7 +770,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -786,7 +787,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -800,10 +801,10 @@ sections:
         code: '608'
         color: '#FF670D'
         actions: []
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -817,10 +818,10 @@ sections:
         code: '051'
         color: '#B2DC00'
         actions: []
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -837,7 +838,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -854,7 +855,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -871,7 +872,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -888,7 +889,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
