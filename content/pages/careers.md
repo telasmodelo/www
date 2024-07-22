@@ -3,7 +3,7 @@ title: Careers
 slug: careers
 sections:
   - title:
-      text: A team that works closely together
+      text: Sumate a nuestro equipo
       color: text-dark
       styles:
         self:
