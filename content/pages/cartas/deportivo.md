@@ -5,7 +5,7 @@ sections:
   - type: PaletteSection
     title:
       type: TitleBlock
-      text: Polar
+      text: Deportivo
       color: text-dark
       styles:
         self:
