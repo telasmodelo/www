@@ -10,7 +10,7 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: m
+    subtitle: ''
     palette:
       - details: BLANCO
         code: '001'
