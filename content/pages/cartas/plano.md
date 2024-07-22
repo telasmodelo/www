@@ -15,7 +15,7 @@ sections:
       - type: OneColor
         details: BLANCO
         code: '001'
-        color: '#FDFCFF'
+        color: '#EDECF1'
         actions: []
         colors: bg-light-fg-dark
         styles:
