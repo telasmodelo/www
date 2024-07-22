@@ -22,7 +22,7 @@ sections:
             padding:
               - pt-0
               - pb-5
-              - pl-3
+              - pl-0
               - pr-3
             borderRadius: large
             textAlign: center
