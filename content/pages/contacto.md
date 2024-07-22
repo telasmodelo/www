@@ -50,7 +50,7 @@ sections:
           borderRadius: large
     badge:
       type: Badge
-      label: CLIENTES
+      label: EMPRESA
       color: text-primary
     colors: bg-light-fg-dark
     title:
