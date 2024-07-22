@@ -53,6 +53,10 @@ sections:
       label: Contact Us
       color: text-primary
     colors: bg-light-fg-dark
+    title:
+      type: TitleBlock
+      text: This Is A Big Headline
+      color: text-dark
 slug: contacto
 isDraft: false
 seo:
