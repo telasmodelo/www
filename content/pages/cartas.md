@@ -126,7 +126,7 @@ sections:
           - type: Button
             label: VER
             altText: ''
-            url: /cartas/polar
+            url: /cartas/forreria
             showIcon: false
             icon: arrowRight
             iconPosition: right
