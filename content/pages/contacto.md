@@ -32,7 +32,7 @@ sections:
           isRequired: true
       submitButton:
         type: SubmitButtonFormControl
-        label: Submit
+        label: Enviar
         icon: arrowRight
         iconPosition: right
         style: primary
