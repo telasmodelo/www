@@ -1,5 +1,5 @@
 ---
-title: Careers
+title: Trabaja con nosotros
 slug: trabajo
 sections:
   - title:
