@@ -4,12 +4,12 @@
         "altText": "Logo light",
         "type": "ImageBlock"
     },
-    "text": "A description of your brand",
+    "text": "TINTORERÍA INDUSTRIAL MODELO S.A.I.C. \n",
     "primaryLinks": {
-        "title": "Product",
+        "title": "ProductOS",
         "links": [
             {
-                "label": "Features",
+                "label": "Cartas de colores",
                 "altText": "Features page",
                 "url": "/",
                 "icon": "arrowRight",
@@ -24,23 +24,15 @@
                 "iconPosition": "right",
                 "style": "secondary",
                 "type": "Link"
-            },
-            {
-                "label": "Documentation",
-                "url": "/",
-                "icon": "arrowRight",
-                "iconPosition": "right",
-                "style": "secondary",
-                "type": "Link"
             }
         ],
         "type": "FooterLinksGroup"
     },
     "secondaryLinks": {
-        "title": "Company",
+        "title": "EMPRESA",
         "links": [
             {
-                "label": "Careers",
+                "label": "Nuestra historia",
                 "altText": "careers page",
                 "url": "/careers",
                 "icon": "arrowRight",
@@ -49,7 +41,7 @@
                 "type": "Link"
             },
             {
-                "label": "Blog",
+                "label": "Trabaja con nosotros",
                 "url": "/blog",
                 "icon": "arrowRight",
                 "iconPosition": "right",
@@ -103,7 +95,7 @@
             "type": "Link"
         }
     ],
-    "copyrightText": "Powered by [Netlify Create](https://www.netlify.com/platform/create/)",
+    "copyrightText": "© TINTORERÍA INDUSTRIAL MODELO S.A.I.C. \n",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
 }
