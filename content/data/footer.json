@@ -57,6 +57,13 @@
             "url": "https://www.linkedin.com/company/tintoreria-industrial-modelo-s.a.i.c./",
             "icon": "linkedin",
             "type": "Social"
+        },
+        {
+            "type": "Social",
+            "altText": "Instagram link",
+            "url": "https://www.instagram.com/telas_modelo/",
+            "icon": "instagram",
+            "elementId": ""
         }
     ],
     "legalLinks": [
