@@ -29,6 +29,7 @@ sections:
           hideLabel: true
           placeholder: Tu mensaje
           width: full
+          isRequired: true
       submitButton:
         type: SubmitButtonFormControl
         label: Submit
