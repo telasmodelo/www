@@ -46,7 +46,7 @@ sections:
             textAlign: center
             justifyContent: center
     actions: []
-    variant: big-list
+    variant: two-col-grid
     colors: bg-light-fg-dark
     styles:
       self:
