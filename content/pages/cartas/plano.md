@@ -1,40 +1,21 @@
 ---
 type: PageLayout
-title: Polar
+title: Plano
 sections:
   - type: PaletteSection
     title:
       type: TitleBlock
-      text: Polar
+      text: Plano
       color: text-dark
       styles:
         self:
           textAlign: center
     subtitle: ''
     palette:
-      - details: BLANCO
+      - type: OneColor
+        details: BLANCO
         code: '001'
-        color: '#F4F5F9'
-        highlight: false
-        type: OneColor
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 1
-            flexDirection: ''
-            borderColor: border-light
-      - type: OneColor
-        details: NATURAL
-        code: '134'
-        color: '#C0B8A4'
+        color: '#FDFCFF'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -49,9 +30,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: BEIGE
-        code: '138'
-        color: '#9E937F'
+        details: GRIS CENIZA
+        code: '348'
+        color: '#8B8F8F'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -66,9 +47,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: CEMENTO FUERTE
-        code: '181'
-        color: '#6D634F'
+        details: GRIS VERDE CLARO
+        code: '171'
+        color: '#84887C'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -83,332 +64,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: NEGRO
-        code: '005'
-        color: '#201E22'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: CAMEL
-        code: '137'
-        color: '#AC9980'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: SEPIA
-        code: '486'
-        color: '#816036'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: MOSTAZA
-        code: '479'
-        color: '#AB8441'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: GAMUZA
-        code: '503'
-        color: '#553727'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: CHOCOLATE
-        code: '548'
-        color: '#3A2826'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: AMARILLO PATITO
-        code: '055'
-        color: '#C4B96D'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: AMARILLO
-        code: '054'
-        color: '#DABD00'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: AMARILLO ORO
-        code: '060'
-        color: '#CE8B30'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: VERDE LIQUEN
-        code: '842'
-        color: '#686330'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: VERDE
-        code: '854'
-        color: '#404228'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: VERDE AGUA
-        code: '908'
-        color: '#93B596'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: VERDE BRILLANTE
-        code: '856'
-        color: '#5A8D2E'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: VERDE TROPICAL
-        code: '824'
-        color: '#00652A'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: VERDE MUSGO
-        code: '880'
-        color: '#26251F'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: DURAZNO
-        code: '488'
-        color: '#D4946B'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: NARANJA
-        code: '570'
-        color: '#B6331A'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: OCRE
-        code: '567'
-        color: '#8C4020'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: LADRILLO
-        code: '603'
-        color: '#792428'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: BORDO
-        code: '247'
-        color: '#4E141E'
+        details: GRIS PLOMO
+        code: '408'
+        color: '#4B4B50'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -424,8 +82,8 @@ sections:
             flexDirection: ''
       - type: OneColor
         details: ROSA
-        code: '719'
-        color: '#D8AABA'
+        code: '708'
+        color: '#F6BEC9'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -440,9 +98,26 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: CHICLE
-        code: '728'
-        color: '#C03E68'
+        details: CORAL
+        code: '736'
+        color: '#F4868A'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: FUCSIA
+        code: '353'
+        color: '#F36B98'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -458,8 +133,8 @@ sections:
             flexDirection: ''
       - type: OneColor
         details: GUINDA
-        code: '329'
-        color: '#96133E'
+        code: '330'
+        color: '#B62D59'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -476,7 +151,7 @@ sections:
       - type: OneColor
         details: ROJO
         code: '669'
-        color: '#8A001B'
+        color: '#B21E32'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -491,9 +166,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: BORRAVINO
-        code: '628'
-        color: '#600519'
+        details: TOMATE
+        code: '664'
+        color: '#742735'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -508,9 +183,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: LILA
-        code: '444'
-        color: '#9F87A1'
+        details: BORDO
+        code: '247'
+        color: '#62353C'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -525,9 +200,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: OBISPO
-        code: '947'
-        color: '#823C74'
+        details: AMARILLO FLUO
+        code: '051'
+        color: '#E0FF60'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -542,9 +217,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: MORA
-        code: '972'
-        color: '#72495F'
+        details: AMARILLO
+        code: '054'
+        color: '#F5DD00'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -559,9 +234,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: UVA
-        code: '977'
-        color: '#3C192F'
+        details: AMARILLO ORO
+        code: '060'
+        color: '#F6B659'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -576,9 +251,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: VIOLETA
-        code: '933'
-        color: '#1D1832'
+        details: MOSTAZA
+        code: '045'
+        color: '#C99833'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -593,9 +268,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: CELESTE
-        code: 069
-        color: '#9BB4BA'
+        details: GAMUZA CLARO
+        code: '505'
+        color: '#D46F3A'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -610,179 +285,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: CELESTE ARG
-        code: 083
-        color: '#488DAF'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: AZULENO
-        code: '300'
-        color: '#556982'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: AZULINO
-        code: 086
-        color: '#384766'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: FRANCIA
-        code: '306'
-        color: '#0B1E4B'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: BERGAMOTA
-        code: '579'
-        color: '#CD5C1B'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: AFRICANO
-        code: '497'
-        color: '#25191C'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: VERDE JADE
-        code: '789'
-        color: '#6E8987'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: TURQUESA
-        code: '793'
-        color: '#006687'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: AERO
-        code: 092
-        color: '#1C3342'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: PETROLEO
-        code: '107'
-        color: '#0D1F26'
-        actions: []
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: MARINO
-        code: '130'
-        color: '#171621'
+        details: NARANJA
+        code: '570'
+        color: '#F06340'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -799,41 +304,7 @@ sections:
       - type: OneColor
         details: NARANJA FLUO
         code: '608'
-        color: '#FF670D'
-        actions: []
-        colors: bg-dark-fg-light
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: AMARILLO FLUO
-        code: '051'
-        color: '#B2DC00'
-        actions: []
-        colors: bg-dark-fg-light
-        styles:
-          self:
-            padding:
-              - pt-3
-              - pb-3
-              - pl-3
-              - pr-3
-            borderRadius: large
-            textAlign: center
-            borderWidth: 0
-            flexDirection: ''
-      - type: OneColor
-        details: GRIS 15%
-        code: '366'
-        color: '#6A5F60'
+        color: '#FFA94B'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -848,9 +319,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: GRIS 40%
-        code: '432'
-        color: '#4A4247'
+        details: VERDE BRILLANTE
+        code: '856'
+        color: '#82BF4E'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -865,9 +336,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: GRIS MEDIO
-        code: '371'
-        color: '#524643'
+        details: VERDE BAMBOO
+        code: '881'
+        color: '#C1CF70'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -882,9 +353,9 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: GRIS 70%
-        code: '435'
-        color: '#312F32'
+        details: VERDE MUSGO CLARO
+        code: '911'
+        color: '#979068'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -899,9 +370,298 @@ sections:
             borderWidth: 0
             flexDirection: ''
       - type: OneColor
-        details: GRIS INTENSO
-        code: '430'
-        color: '#272228'
+        details: VERDE GRAMILLA
+        code: '887'
+        color: '#545C49'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: VERDE MUSGO
+        code: '880'
+        color: '#414640'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: VERDE BOTELLA
+        code: '894'
+        color: '#32423F'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: VERDE ESMERALDA
+        code: '817'
+        color: '#00754B'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: CELESTE
+        code: 080
+        color: '#98C2DB'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: CIELO
+        code: 087
+        color: '#5C90C8'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: TURQUESA
+        code: '793'
+        color: '#1698C8'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: PETROLEO
+        code: '109'
+        color: '#395365'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: AERO OSCURO
+        code: '276'
+        color: '#2E5475'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: FRANCIA
+        code: '306'
+        color: '#193C7B'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: AZUL MARINO
+        code: '128'
+        color: '#2F344C'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: TIZA
+        code: '140'
+        color: '#DCD9CC'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: BEIGE
+        code: '138'
+        color: '#D2C1A3'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: MADERA
+        code: '193'
+        color: '#9E8C7A'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: CEMENTO FUERTE
+        code: '181'
+        color: '#927D64'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: CAFE
+        code: '550'
+        color: '#624741'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: AFRICANO
+        code: '497'
+        color: '#483131'
+        actions: []
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
+            borderRadius: large
+            textAlign: center
+            borderWidth: 0
+            flexDirection: ''
+      - type: OneColor
+        details: NEGRO
+        code: '005'
+        color: '#2A282D'
         actions: []
         colors: bg-light-fg-dark
         styles:
@@ -928,7 +688,7 @@ sections:
       styles:
         self:
           textAlign: center
-slug: polar
+slug: cartas/plano
 isDraft: false
 seo:
   type: Seo
