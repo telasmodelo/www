@@ -17,8 +17,7 @@ sections:
         price: Polar
         details: ''
         description: ''
-        features:
-          - Feature five
+        features: []
         image:
           type: ImageBlock
           url: /images/abstract-feature3.svg
