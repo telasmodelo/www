@@ -57,12 +57,6 @@
             "url": "https://www.linkedin.com/company/tintoreria-industrial-modelo-s.a.i.c./",
             "icon": "linkedin",
             "type": "Social"
-        },
-        {
-            "altText": "Email link",
-            "url": "/",
-            "icon": "mail",
-            "type": "Social"
         }
     ],
     "legalLinks": [
