@@ -40,7 +40,7 @@
             "type": "Button"
         }
     ],
-    "variant": "logo-centered-primary-nav-left",
+    "variant": "logo-left-primary-nav-right",
     "colors": "bg-light-fg-dark",
     "type": "Header"
 }
