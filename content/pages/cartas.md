@@ -65,6 +65,7 @@ sections:
       backgroundPosition: center
       backgroundRepeat: no-repeat
       opacity: 100
+      url: /images/gradient.svg
 slug: cartas
 isDraft: false
 seo:
