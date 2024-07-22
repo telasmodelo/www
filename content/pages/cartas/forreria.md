@@ -15,12 +15,12 @@ sections:
       - type: OneColor
         details: BLANCO
         code: '001'
-        color: '#F0F0E7'
+        color: '#FFFFF7'
         actions: []
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -37,7 +37,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
@@ -54,7 +54,7 @@ sections:
         colors: bg-light-fg-dark
         styles:
           self:
-            padding: 
+            padding:
               - pt-3
               - pb-3
               - pl-3
