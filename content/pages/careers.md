@@ -12,7 +12,7 @@ sections:
     subtitle: ''
     text: ''
     actions:
-      - label: See open positions
+      - label: Ver busquedas
         url: /
         icon: arrowRight
         iconPosition: right
