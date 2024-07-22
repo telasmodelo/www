@@ -818,7 +818,7 @@ sections:
         code: '051'
         color: '#B2DC00'
         actions: []
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
             padding:
