@@ -27,7 +27,7 @@ sections:
             borderRadius: large
             textAlign: center
             borderWidth: 0
-            flexDirection: '-reverse'
+            flexDirection: ''
     colors: bg-neutral-fg-dark
     styles:
       self:
