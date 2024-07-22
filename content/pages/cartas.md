@@ -18,10 +18,6 @@ sections:
         details: ''
         description: ''
         features: []
-        image:
-          type: ImageBlock
-          url: /images/abstract-feature3.svg
-          altText: Pricing plan 3
         actions:
           - type: Button
             label: Contact us
