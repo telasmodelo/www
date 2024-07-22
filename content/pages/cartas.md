@@ -13,7 +13,7 @@ sections:
     subtitle: ''
     items:
       - type: FeaturedItem
-        title: Feature Item One
+        title: Polar
         tagline: ''
         subtitle: This is the item subtitle
         text: |
