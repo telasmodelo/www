@@ -55,7 +55,7 @@ sections:
     colors: bg-light-fg-dark
     title:
       type: TitleBlock
-      text: This Is A Big Headline
+      text: Contactanos
       color: text-dark
 slug: contacto
 isDraft: false
