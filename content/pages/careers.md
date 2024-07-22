@@ -52,7 +52,7 @@ sections:
     subtitle: ''
     items: []
     actions:
-      - label: Apply now
+      - label: Aplica ahora
         url: /
         icon: arrowRight
         iconPosition: right
