@@ -774,7 +774,7 @@ sections:
       styles:
         self:
           textAlign: center
-slug: deportivo
+slug: cartas/deportivo
 isDraft: false
 seo:
   type: Seo

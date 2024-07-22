@@ -928,7 +928,7 @@ sections:
       styles:
         self:
           textAlign: center
-slug: polar
+slug: cartas/polar
 isDraft: false
 seo:
   type: Seo

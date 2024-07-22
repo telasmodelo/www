@@ -93,7 +93,7 @@ sections:
       styles:
         self:
           textAlign: center
-slug: forreria
+slug: cartas/forreria
 isDraft: false
 seo:
   type: Seo
