@@ -18,7 +18,6 @@ sections:
         details: ''
         description: ''
         features:
-          - Feature four
           - Feature five
         image:
           type: ImageBlock
