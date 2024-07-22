@@ -688,7 +688,7 @@ sections:
       styles:
         self:
           textAlign: center
-slug: plano
+slug: cartas/plano
 isDraft: false
 seo:
   type: Seo
