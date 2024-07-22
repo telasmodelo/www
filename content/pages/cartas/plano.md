@@ -306,7 +306,7 @@ sections:
         code: '608'
         color: '#FFA94B'
         actions: []
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
             padding:
