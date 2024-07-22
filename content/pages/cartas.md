@@ -44,6 +44,7 @@ sections:
             borderRadius: x-large
             flexDirection: row
             textAlign: center
+            justifyContent: center
     actions: []
     variant: two-col-grid
     colors: bg-neutral-fg-dark
