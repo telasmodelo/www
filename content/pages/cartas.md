@@ -1,55 +1,7 @@
 ---
 type: PageLayout
 title: Cartas de colores
-sections:
-  - type: FeaturedItemsSection
-    title:
-      type: TitleBlock
-      text: Cartas de Colores
-      color: text-primary
-      styles:
-        self:
-          textAlign: center
-    subtitle: ''
-    items:
-      - type: FeaturedItem
-        title: Polar
-        tagline: ''
-        subtitle: ''
-        text: ''
-        actions:
-          - type: Button
-            label: Ver
-            altText: ''
-            url: /polar
-            showIcon: false
-            icon: arrowRight
-            iconPosition: right
-            style: secondary
-            elementId: ''
-        colors: bg-light-fg-dark
-        styles:
-          self:
-            padding:
-              - pt-8
-              - pl-8
-              - pb-8
-              - pr-8
-            borderRadius: x-large
-            flexDirection: row
-    actions: []
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding:
-          - pt-16
-          - pl-8
-          - pb-8
-          - pr-8
-        justifyContent: center
-      subtitle:
-        textAlign: center
+sections: []
 slug: cartas
 isDraft: false
 seo:
