@@ -204,7 +204,7 @@ sections:
         code: '051'
         color: '#E0FF60'
         actions: []
-        colors: bg-light-fg-dark
+        colors: bg-dark-fg-light
         styles:
           self:
             padding:
