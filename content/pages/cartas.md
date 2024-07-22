@@ -25,7 +25,7 @@ sections:
               borderRadius: x-large
         actions:
           - type: Button
-            label: IR
+            label: VER
             altText: ''
             url: /cartas/polar
             showIcon: false
