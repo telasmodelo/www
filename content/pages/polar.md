@@ -10,7 +10,7 @@ sections:
       styles:
         self:
           textAlign: center
-    subtitle: Carta de Colores
+    subtitle: ''
     palette:
       - details: BLANCO
         code: '001'
