@@ -20,10 +20,10 @@ sections:
         styles:
           self:
             padding:
-              - pt-0
-              - pb-0
-              - pl-0
-              - pr-0
+              - pt-3
+              - pb-3
+              - pl-3
+              - pr-3
             borderRadius: large
             textAlign: center
             borderWidth: 0
