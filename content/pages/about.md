@@ -33,6 +33,8 @@ sections:
     styles:
       self:
         alignItems: center
+      text:
+        textAlign: justify
     media:
       type: ImageBlock
       url: /images/aerea.jpg
