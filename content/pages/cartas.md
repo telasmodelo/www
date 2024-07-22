@@ -18,7 +18,6 @@ sections:
         details: ''
         description: ''
         features:
-          - Feature one
           - Feature two
           - Feature three
           - Feature four
