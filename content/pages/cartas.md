@@ -78,6 +78,39 @@ sections:
             flexDirection: row
             textAlign: center
             justifyContent: center
+      - type: FeaturedItem
+        title: Deportivo
+        tagline: ''
+        subtitle: ''
+        text: ''
+        image:
+          type: ImageBlock
+          altText: Background alt text
+          styles:
+            self:
+              borderRadius: x-large
+        actions:
+          - type: Button
+            label: VER
+            altText: ''
+            url: /cartas/polar
+            showIcon: false
+            icon: arrowRight
+            iconPosition: right
+            style: secondary
+            elementId: ''
+        colors: bg-light-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: row
+            textAlign: center
+            justifyContent: center
     actions: []
     variant: three-col-grid
     colors: bg-light-fg-dark
