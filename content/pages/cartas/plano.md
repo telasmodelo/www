@@ -29,7 +29,7 @@ sections:
             textAlign: center
             borderWidth: 1
             flexDirection: ''
-            borderColor: border-neutral
+            borderColor: border-light
       - type: OneColor
         details: GRIS CENIZA
         code: '348'
