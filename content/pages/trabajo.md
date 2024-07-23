@@ -13,7 +13,7 @@ sections:
     text: ''
     actions:
       - label: Ver busquedas
-        url: /
+        url: '#open'
         icon: arrowRight
         iconPosition: right
         style: primary
@@ -53,7 +53,7 @@ sections:
     items: []
     actions:
       - label: Aplica ahora
-        url: /
+        url: '#open'
         icon: arrowRight
         iconPosition: right
         style: primary
@@ -71,6 +71,7 @@ sections:
       subtitle:
         textAlign: center
     type: FeaturedItemsSection
+    elementId: open
 seo:
   metaTitle: Careers - Demo site
   metaDescription: This is the careers page built with Netlify Create.
