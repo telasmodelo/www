@@ -65,16 +65,7 @@
             "elementId": ""
         }
     ],
-    "legalLinks": [
-        {
-            "label": "Privacy",
-            "url": "/",
-            "icon": "arrowRight",
-            "iconPosition": "right",
-            "style": "secondary",
-            "type": "Link"
-        }
-    ],
+    "legalLinks": [],
     "copyrightText": "© TINTORERÍA INDUSTRIAL MODELO S.A.I.C. \n",
     "colors": "bg-dark-fg-light",
     "type": "Footer"
