@@ -53,7 +53,7 @@ sections:
     items: []
     actions:
       - label: Aplica ahora
-        url: '#'
+        url: '#open'
         icon: arrowRight
         iconPosition: right
         style: primary
