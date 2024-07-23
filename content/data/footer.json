@@ -26,7 +26,7 @@
             {
                 "label": "Nuestra historia",
                 "altText": "careers page",
-                "url": "/careers",
+                "url": "/about",
                 "icon": "arrowRight",
                 "iconPosition": "right",
                 "style": "secondary",
