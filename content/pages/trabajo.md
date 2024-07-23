@@ -13,7 +13,7 @@ sections:
     text: ''
     actions:
       - label: Ver busquedas
-        url: '#'
+        url: '#open'
         icon: arrowRight
         iconPosition: right
         style: primary
