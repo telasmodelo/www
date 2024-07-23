@@ -33,7 +33,7 @@
     "secondaryLinks": [
         {
             "label": "Contactanos",
-            "url": "/",
+            "url": "/contacto",
             "icon": "arrowRight",
             "iconPosition": "right",
             "style": "primary",

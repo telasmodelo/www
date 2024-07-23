@@ -69,6 +69,10 @@ export const Social: Model = {
         {
           label: 'YouTube',
           value: 'youtube'
+        },
+        {
+          label: 'WhatsApp',
+          value: 'whatsapp'
         }
       ],
       group: 'styles'
